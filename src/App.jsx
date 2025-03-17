@@ -8,9 +8,8 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/email", {
-        email,
-      });
+      await axios.post("https://isca-back.onrender.com/email", { email });
+
       alert("E-mail enviado com sucesso!");
     } catch (error) {
       console.error("Erro ao enviar e-mail", error);
