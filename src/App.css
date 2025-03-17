@@ -61,3 +61,10 @@ input.btn {
 p {
   color: red;
 }
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
